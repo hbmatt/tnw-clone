@@ -1,0 +1,125 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #f42;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+}
+
+#navbar {
+  width: 100%;
+  height: 48px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navleft {
+  display: flex;
+}
+
+.navright {
+  display: flex;
+}
+
+.logo {
+  background: linear-gradient(to right bottom, rgb(204, 0, 153), rgb(255, 68, 34) 85%);
+  height: 48px;
+  width: 106px;
+  padding: 16px 20px;
+}
+
+.navlinks {
+  display: flex;
+  justify-self: flex-start;
+}
+
+.link-item {
+  padding: 18px 12px 0;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #aaa;
+  display: block;
+  height: 48px;
+  letter-spacing: .04em;
+  line-height: 1;
+}
+
+.link-item:first-child {
+  padding-left: 20px;
+}
+
+.search {
+  border-left: 1px solid #eee;
+  display: block;
+  height: 48px;
+  width: 48px;
+  padding: 16px;
+}
+
+.countdown {
+  border-right: 1px solid #eee;
+  padding-right: 8px;
+  display: flex;
+  align-items: center;
+  line-height: 48px;
+  align-self: baseline;
+}
+
+.countdown img {
+  display: inline-block;
+  width: 125px;
+  vertical-align: middle;
+}
+
+.countdown p {
+  font-size: 22px;
+  color: #f42;
+  font-weight: 500;
+  line-height: 46px;
+  margin-right: 8px;
+}
+
+.countdown .btn {
+  background-color: #0cc;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 3px;
+  display: inline-block;
+  line-height: 28px;
+  height: 28px;
+  padding: 0 12px;
+  font-size: 11px;
+}
+
+.tickets {
+  position: fixed;
+  top: 48px;
+  height: 30px;
+  width: 100%;
+  background: #fd3;
+  line-height: 30px;
+  font-size: 13px;
+  padding-left: 126px;
+}
+
+.tickets a {
+  color: #000;
+}

@@ -1,0 +1,1 @@
+This is a clone of TNW's homepage for the Building with Responsive Design project in The Odin Project's HTML and CSS Curriculum.

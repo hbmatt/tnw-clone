@@ -1,0 +1,173 @@
+@media (min-width: 1024px) {
+  h2 {
+    font-size: 28px;
+  }
+
+  .article {
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+
+  .section {
+    flex-basis: 33.3333333%;
+    max-width: 33.3333333%;
+  }
+
+  #featured {
+    height: 75vh;
+    max-height: 560px;
+  }
+
+  .cover:first-child {
+    height: 100%;
+    width: 66.66666%;
+  }
+
+  .article {
+    flex: 0 0 auto;
+    padding: 12px;
+  }
+}
+
+@media (max-width: 1257px) and (min-width: 1024px) {
+  .link-item:nth-child(6), .link-item:nth-child(7) {
+    display: none;
+  }
+}
+
+@media (max-width: 1105px) and (min-width: 1024px) {
+  .link-item:nth-child(5) {
+    display: none;
+  }
+}
+
+@media (max-width: 1023px) and (min-width: 768px) {
+  .countdown, .cover-gradient, .cover-logo, .cover-date {
+    display: none;
+  }
+
+  .link-item:nth-child(5), .link-item:nth-child(6), .link-item:nth-child(7) {
+    display: block;
+  }
+
+  h5 {
+    font-size: 14px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  #featured {
+    height: 60vh;
+  }
+
+  .cover:first-child {
+    height: 100%;
+    width: 66.66666%;
+  }
+
+  .cover:first-child h2 {
+    font-size: 40px;
+  }
+
+  .cover-header {
+    padding: 12px 8px;
+  }
+
+  .article {
+    flex-basis: 33.3333333333%;
+    max-width: 33.3333333333%;
+    padding: 10px;
+  }
+
+  .section {
+    flex-basis: 50%;
+    max-width: 50%;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 866px) and (min-width: 768px) {
+  .link-item:nth-child(6), .link-item:nth-child(7) {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  h2, .cover:first-child h2 {
+    font-size: 20px;
+  }
+
+  .countdown, .cover-gradient, .cover-logo, .cover-date {
+    display: none;
+  }
+
+  .navlinks {
+    display: none;
+  }
+
+  .tickets {
+    height: 60px;
+    line-height: 60px;
+    padding: 0;
+    text-align: center;
+  }
+
+  #main {
+    padding-top: 108px;
+  }
+
+  .cover-header {
+    padding: 10px 8px;
+  }
+
+  .cover {
+    min-height: 30vh;
+    position: relative;
+    width: 100%;
+    float: none;
+  }
+
+  .article {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  #latest .container {
+    margin: -8px;
+    width: 100%;
+  }
+
+  .article {
+    flex-basis: 100%;
+    max-width: 100%;
+    min-height: 72px;
+    margin: 8px;
+  }
+
+  .article a {
+    left: 0;
+    padding-top: 75px;
+    position: absolute;
+    top: 0;
+    width: 75px;
+  }
+
+  .article h4 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    padding-left: 88px;
+  }
+
+  .article p {
+    line-height: 18px;
+    padding-left: 88px;
+  }
+
+  .section {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
